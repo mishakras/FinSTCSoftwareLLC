@@ -1,8 +1,8 @@
 from flask import Flask, jsonify
 from flask_cors import CORS
 import os
-from . import db
-from . import tasks
+import db
+import tasks
 
 
 def create_app(test_config=None):
