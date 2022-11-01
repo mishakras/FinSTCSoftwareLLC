@@ -10,11 +10,6 @@ export default new VueRouter({
   base: process.env.BASE_URL,
   routes: [
     {
-      path: '/ping',
-      name: 'PingPong',
-      component: PingPong,
-    },
-    {
       path: '/',
       name: 'TasksToDo',
       component: TasksToDo,
