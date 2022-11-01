@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 import PingPong from '../components/Ping.vue';
-import ToDos from '../components/ToDos.vue';
+import TasksToDo from '../components/TasksToDo.vue';
 
 Vue.use(VueRouter);
 
@@ -15,9 +15,9 @@ export default new VueRouter({
       component: PingPong,
     },
     {
-      path: '/to_dos',
-      name: 'ToDos',
-      component: ToDos,
+      path: '/',
+      name: 'TasksToDo',
+      component: TasksToDo,
     },
   ],
 });
